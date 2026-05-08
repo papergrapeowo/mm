@@ -1,0 +1,21 @@
+name: Deploy
+on:
+  push:
+    branches: [main] # 只要你往 main 分支推代码，就自动部署
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install and Build
+        run: |
+          npm install
+          npm run build # 这里会生成 dist 文件夹
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # 告诉 GitHub：部署 dist 文件夹里的内容
+          branch: gh-pages # 部署到这个分支
