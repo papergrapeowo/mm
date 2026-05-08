@@ -11,8 +11,8 @@ jobs:
 
       - name: Install and Build
         run: |
-          npm install
-          npm run build # 这里会生成 dist 文件夹
+          npm install --legacy-peer-deps  # 加上这个后缀
+          npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
