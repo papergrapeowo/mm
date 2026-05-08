@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 1000">
+  <defs>
+    <linearGradient id="celadonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8C4A8"/>
+      <stop offset="30%" style="stop-color:#9BA88A"/>
+      <stop offset="70%" style="stop-color:#8A9A7A"/>
+      <stop offset="100%" style="stop-color:#6B7A5B"/>
+    </linearGradient>
+    <radialGradient id="innerShine" cx="40%" cy="30%" r="50%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.3)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0)"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#333" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <rect width="990" height="1000" fill="#E8E4DF"/>
+  
+  <ellipse cx="500" cy="920" rx="350" ry="40" fill="#C4C0BB" opacity="0.6"/>
+  
+  <g filter="url(#shadow)">
+    <ellipse cx="500" cy="380" rx="320" ry="85" fill="url(#celadonGrad)" />
+    <ellipse cx="500" cy="380" rx="300" ry="75" fill="#7A8A6B"/>
+    <ellipse cx="500" cy="380" rx="280" ry="70" fill="#8A9A7A"/>
+    
+    <ellipse cx="500" cy="260" rx="320" ry="25" fill="url(#celadonGrad)" />
+    <ellipse cx="500" cy="260" rx="280" ry="20" fill="#6B7A5B"/>
+    
+    <path d="M500 380 Q650 400 680 520 Q700 620 650 680 L500 720 L350 680 Q300 620 320 520 Q350 400 500 380" fill="url(#celadonGrad)"/>
+    <path d="M500 380 Q630 395 660 500 Q680 590 640 660 L500 700 L360 660 Q320 590 340 500 Q370 395 500 380" fill="#8A9A7A"/>
+    <path d="M500 380 Q600 390 620 460 Q630 520 610 580 L500 620 L390 580 Q370 520 380 460 Q400 390 500 380" fill="#9BA88A"/>
+    
+    <ellipse cx="500" cy="710" rx="280" ry="50" fill="url(#celadonGrad)" />
+    <ellipse cx="500" cy="710" rx="260" ry="45" fill="#7A8A6B"/>
+    
+    <ellipse cx="500" cy="780" rx="340" ry="55" fill="url(#celadonGrad)" />
+    <ellipse cx="500" cy="780" rx="310" ry="45" fill="#8A9A7A"/>
+    
+    <ellipse cx="500" cy="850" rx="280" ry="45" fill="#7A8A6B"/>
+    <ellipse cx="500" cy="850" rx="250" ry="38" fill="#6B7A5B"/>
+    
+    <ellipse cx="500" cy="910" rx="320" ry="40" fill="#5A6A4B"/>
+    
+    <path d="M280 380 Q295 320 340 320" stroke="#7A8A6B" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M380 390 Q400 320 450 320" stroke="#7A8A6B" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M500 395 Q520 320 550 320" stroke="#7A8A6B" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M620 390 Q650 320 700 320" stroke="#7A8A6B" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M720 380 Q745 320 790 320" stroke="#7A8A6B" stroke-width="8" fill="none" stroke-linecap="round"/>
+    
+    <path d="M320 480 Q340 420 390 420" stroke="#7A8A6B" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M420 495 Q445 420 500 420" stroke="#7A8A6B" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M580 495 Q605 420 660 420" stroke="#7A8A6B" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M680 480 Q700 420 750 420" stroke="#7A8A6B" stroke-width="6" fill="none" stroke-linecap="round"/>
+    
+    <path d="M380 580 Q405 520 460 520" stroke="#7A8A6B" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M540 580 Q565 520 620 520" stroke="#7A8A6B" stroke-width="5" fill="none" stroke-linecap="round"/>
+    
+    <ellipse cx="380" cy="750" rx="60" ry="25" fill="#8A9A7A" opacity="0.5"/>
+    <ellipse cx="500" cy="760" rx="65" ry="28" fill="#8A9A7A" opacity="0.5"/>
+    <ellipse cx="620" cy="750" rx="60" ry="25" fill="#8A9A7A" opacity="0.5"/>
+    
+    <ellipse cx="340" cy="880" rx="50" ry="20" fill="#7A8A6B" opacity="0.4"/>
+    <ellipse cx="430" cy="890" rx="55" ry="22" fill="#7A8A6B" opacity="0.4"/>
+    <ellipse cx="530" cy="890" rx="55" ry="22" fill="#7A8A6B" opacity="0.4"/>
+    <ellipse cx="620" cy="880" rx="50" ry="20" fill="#7A8A6B" opacity="0.4"/>
+  </g>
+  
+  <ellipse cx="500" cy="380" rx="320" ry="85" fill="url(#innerShine)"/>
+  
+  <circle cx="350" cy="280" r="30" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="450" cy="250" r="20" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="580" cy="290" r="15" fill="rgba(255,255,255,0.25)"/>
+  
+  <circle cx="320" cy="600" r="12" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="680" cy="590" r="10" fill="rgba(255,255,255,0.18)"/>
+  
+  <circle cx="400" cy="820" r="15" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="580" cy="830" r="12" fill="rgba(255,255,255,0.2)"/>
+  
+  <text x="900" y="970" fill="#999" font-size="24" font-family="sans-serif">秘色瓷莲花碗</text>
+</svg>
