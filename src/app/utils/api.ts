@@ -1,7 +1,7 @@
 // API 服务文件，用于处理后端接口调用
 
 // 后端服务器地址
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://demo-ashy-iota-83.vercel.app/';
 
 // 登录接口
 export async function login(email: string, password: string) {
