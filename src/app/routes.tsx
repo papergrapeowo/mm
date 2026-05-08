@@ -28,4 +28,7 @@ export const router = createBrowserRouter([
       { path: "my", element: <MyPage /> },
     ],
   },
-]);
+], {
+  // 💡 关键：加上这一行，解决 GitHub Pages 的路径偏移问题
+  basename: "/mm", 
+});
